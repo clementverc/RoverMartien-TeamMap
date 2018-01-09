@@ -3,7 +3,12 @@ Projet de map 3d pour le rover Martien
 
 #Liste des tâches
 
-A partir du doc google, des note de Laurent et du json que nous avions fait (disponible sur le slack), produire un fichier tableau de tous les composants qui doivent être crée par notre team.
+Produire un json contenant  :
+- les cases en forme d'hexagones comptant un width et un height.
+- les coordonnées x,y,z de chaque case.
+- un booléen de minerais
+- une composition pendant des cases voisines. 
+
 
 Faire une représentation plate des hexagones (avec l'altitude en chiffre au centre) pour valider le fonctionnement
 
