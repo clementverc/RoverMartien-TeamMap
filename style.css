@@ -1,0 +1,38 @@
+html {
+	display: table;
+  width: 100%;
+
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+	height: 100vh;
+	overflow: hidden;
+	background-image: radial-gradient( #444, #111);
+  text-align: center;
+}
+
+#canvas {
+	// background-color: rgba(255,127,0,0.75);
+	// cursor: none;
+}
+
+#ui {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	padding: 9px;
+	background-color: rgba(0,0,0,0.75);
+	color: white;
+	line-height: 2;
+
+	button {
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		text-transform: uppercase;
+		color: black;
+		font-weight: bold;
+	}
+}
