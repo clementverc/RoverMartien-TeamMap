@@ -195,7 +195,7 @@ const hexCornerOffset = (layout, corner, k = 1) => {
 
 Adapte la forme des point anguleux pour correspondre à la taille du layout
 
-hexCorners = (layout, h, k = 1) => {
+const hexCorners = (layout, h, k = 1) => {
 	const corners = [],
 		center = hex2Pixel(layout, h);
 	for (var i = 0; i < 6; i++) {
